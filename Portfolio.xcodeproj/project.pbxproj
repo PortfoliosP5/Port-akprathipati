@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C4CF7D0D232C41CD00CC2256 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CF7D0C232C41CD00CC2256 /* main.c */; };
+		C4CF7D17232C420A00CC2256 /* pythagorasLab.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CF7D16232C420A00CC2256 /* pythagorasLab.c */; };
+		C4CF7D1A232C42EF00CC2256 /* rectangleLab.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CF7D19232C42EF00CC2256 /* rectangleLab.c */; };
+		C4CF7D1D232C437100CC2256 /* timeLab.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CF7D1C232C437100CC2256 /* timeLab.c */; };
+		C4CF7D20232C44C600CC2256 /* temperatureLab.c in Sources */ = {isa = PBXBuildFile; fileRef = C4CF7D1F232C44C600CC2256 /* temperatureLab.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		C4CF7D09232C41CD00CC2256 /* Portfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Portfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CF7D0C232C41CD00CC2256 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C4CF7D15232C420A00CC2256 /* pythagorasLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagorasLab.h; sourceTree = "<group>"; };
+		C4CF7D16232C420A00CC2256 /* pythagorasLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pythagorasLab.c; sourceTree = "<group>"; };
+		C4CF7D18232C42EF00CC2256 /* rectangleLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectangleLab.h; sourceTree = "<group>"; };
+		C4CF7D19232C42EF00CC2256 /* rectangleLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rectangleLab.c; sourceTree = "<group>"; };
+		C4CF7D1B232C437100CC2256 /* timeLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeLab.h; sourceTree = "<group>"; };
+		C4CF7D1C232C437100CC2256 /* timeLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timeLab.c; sourceTree = "<group>"; };
+		C4CF7D1E232C44C600CC2256 /* temperatureLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperatureLab.h; sourceTree = "<group>"; };
+		C4CF7D1F232C44C600CC2256 /* temperatureLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = temperatureLab.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,24 @@
 			isa = PBXGroup;
 			children = (
 				C4CF7D0C232C41CD00CC2256 /* main.c */,
+				C4CF7D14232C41D800CC2256 /* Labs */,
 			);
 			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		C4CF7D14232C41D800CC2256 /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				C4CF7D16232C420A00CC2256 /* pythagorasLab.c */,
+				C4CF7D15232C420A00CC2256 /* pythagorasLab.h */,
+				C4CF7D19232C42EF00CC2256 /* rectangleLab.c */,
+				C4CF7D18232C42EF00CC2256 /* rectangleLab.h */,
+				C4CF7D1C232C437100CC2256 /* timeLab.c */,
+				C4CF7D1B232C437100CC2256 /* timeLab.h */,
+				C4CF7D1F232C44C600CC2256 /* temperatureLab.c */,
+				C4CF7D1E232C44C600CC2256 /* temperatureLab.h */,
+			);
+			path = Labs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CF7D1D232C437100CC2256 /* timeLab.c in Sources */,
 				C4CF7D0D232C41CD00CC2256 /* main.c in Sources */,
+				C4CF7D17232C420A00CC2256 /* pythagorasLab.c in Sources */,
+				C4CF7D20232C44C600CC2256 /* temperatureLab.c in Sources */,
+				C4CF7D1A232C42EF00CC2256 /* rectangleLab.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
+#include "pythagorasLab.h"
+#include "rectangleLab.h"
+#include "timeLab.h"
+#include "temperatureLab.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    pythagoras();
+    rectangle();
+    minutes();
+    temperature();
 }
